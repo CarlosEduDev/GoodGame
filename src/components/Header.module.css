@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+    gap: 10rem;
+    
+    background: #f6f6f6;
+    border-bottom: 1px solid #dfdada;
+}
+
+.header > h2{
+    font-family: 'Caesar Dressing';
+    font-size: 3rem;
+}
+
+span{
+    font-size: 1.210rem;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    gap: 1rem;
+}

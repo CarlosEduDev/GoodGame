@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --routes: #100F0F;
+
+}
+
+body{
+    -webkit-font-smoothing: antialiased;
+    background: #f9f9f9;
+    font-family: 'Roboto';
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: var(--routes);
+}
+

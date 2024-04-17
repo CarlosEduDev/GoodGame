@@ -1,0 +1,17 @@
+.footer{
+    background: #ebebeb;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer svg{
+    font-size: 2rem;
+}
+
+.footerimages{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 40rem;
+}

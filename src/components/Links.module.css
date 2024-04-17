@@ -1,0 +1,7 @@
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1.75rem 0;
+
+}
