@@ -2,6 +2,7 @@ import { FacebookLogo, List, MagnifyingGlass, TwitchLogo, TwitterLogo, User } fr
 import styles from './Header.module.css'
 
 export function Header(){
+
     return(
         <div>
             <header className={styles.header}>

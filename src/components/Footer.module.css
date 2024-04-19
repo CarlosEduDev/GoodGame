@@ -2,16 +2,17 @@
     background: #ebebeb;
     display: flex;
     align-items: center;
-    
+    padding-bottom: 1rem;
 }
 
-.footer svg{
-    font-size: 2rem;
+.footer > p{
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
-.footerimages{
+.footerPolicy{
     display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-left: 40rem;
+    margin-left: 30rem;
+    gap: 1rem;
+    margin-top: 1rem;
 }

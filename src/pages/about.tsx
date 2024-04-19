@@ -6,7 +6,7 @@ export function About(){
     return(
         <div className={styles.about}>
             <h2>Sobre</h2>
-            <p>Boas vindas ao GoodGeek!</p>
+            <p>GoodGeek é um blog para quem ama o mundo geek(jogos, tecnologias, animes, etc.)</p>
             <p>Explore o mundo geek em um só lugar para ficar bem informado(a)!</p>
 
             <img src="https://pbs.twimg.com/media/EaMKffLWkAEuhTw.png:large" alt="imagem ilustrativa" />

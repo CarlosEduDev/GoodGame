@@ -1,3 +1,20 @@
 .categories{
-    color: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 1rem;
+}
+
+.categories h2,
+.categories p {
+    padding: 0 0 1rem 0;
+}
+
+.categoriesName{
+    margin-left: 7.5rem;
+}
+
+.categories footer{
+    padding-top: 2rem;
 }
