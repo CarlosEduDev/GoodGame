@@ -12,7 +12,7 @@ export function Header(){
 
             </div>
             
-            <h2>GoodGames</h2>
+            <h2>GoodGeek</h2>
 
             <div className={styles.logo}>
             <span><User/></span>

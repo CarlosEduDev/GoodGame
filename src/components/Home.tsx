@@ -1,7 +1,5 @@
 import { ArrowDown } from 'phosphor-react'
 import styles from './Home.module.css'
-import { Header } from './Header'
-import { Links } from './Links'
 import { Footer } from './Footer'
 
 const products = [
@@ -23,22 +21,20 @@ export function Home(){
 
     return(
         <>
-         <Header/>
-         <Links/>
-
+        
         <main className={styles.main}>
-    <div className={styles.productsColumns}>
-        {products.map(product => {
-            return (
-                <div className={styles.productCard} key={product.name}>
-                    <img src={product.img} alt={product.name}/>
-                    <div className={styles.productContent}>
-                        <p>{product.name}</p>
+        <div className={styles.productsColumns}>
+            {products.map(product => {
+                return (
+                    <div className={styles.productCard} key={product.name}>
+                        <img src={product.img} alt={product.name}/>
+                        <div className={styles.productContent}>
+                            <p>{product.name}</p>
+                        </div>
                     </div>
-                </div>
-            )
-        })}
-    </div>
+                )
+            })}
+        </div>
 
     <img className={styles.carImage} src="https://s3-alpha-sig.figma.com/img/56d1/fde7/b26c037b5e1a9582fb54884b80e4ed7a?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=htLucHV0x5--jPTZ1f1YNKzYdppaKuZVMqEH4GKgpY4Zhwu1E52K7C8aqPOw-WP2orAAiqew3dP7wLBT6AeR2LhDToxO9UBIGAeFp~urjv7JZnjHNSOh~TQn26-nzVfmi8BK1Mf-4FvMn~4jzQ9-z4ncoTPjdBKLuUsJOdQylbIZD6FfR3aoONDrmXoEmieNIt051XbGpFOtNSSE0JCsQBu-VYnMaViVm02D8TGrTnXpFf9rnjZJMTVbvV7CU9NZobFvsEsj9p5tbrT~92QFHOvK~wLOJqNhVFRc6NdCJRsDqeERrAiTGc9tMMnhT4nC7FD7kOIHRk8nbIGjydUlmg__" />
 
