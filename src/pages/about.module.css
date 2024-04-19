@@ -1,0 +1,37 @@
+.about{
+    border-top: 1px solid #cecece;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 2rem;
+}
+
+p{
+    font-size: 18px;
+}
+
+.about > img{
+    width: 35rem;
+    border-radius: 8px;
+    margin: 1rem;
+}
+
+.footer{
+    padding-top: 2rem;
+}
+
+.logoFooter{
+    display: flex;
+    gap: 2rem;
+    margin-left: 2.5rem;
+    padding: 1rem;
+}
+
+.logoFooter a {
+    cursor: pointer;
+}
+
+.logoFooter svg{
+    font-size: 2rem;
+}
